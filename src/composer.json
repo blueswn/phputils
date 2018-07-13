@@ -1,0 +1,26 @@
+{
+    "name": "gnefiy/phputils",
+    "description": "PHP Utils",
+    "keywords": [
+        "php",
+        "phputils",
+        "utils"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gnefiy",
+            "email": "gnefiy@gmail.com"
+        }
+    ],
+    "require": {
+        "php":">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gnefiy\\": "src/"
+        },
+        "files": [
+        ]
+    }
+}
